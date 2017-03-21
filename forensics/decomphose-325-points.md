@@ -4,11 +4,11 @@ Image arithmetic is super neat until there's more than two images involved.
 
 file 1
 
-file 2
+[file 2](https://github.com/EasyCTF/easyctf-2017-problems/blob/master/decomphose/decomp2.7z)
 
-file 3
+[file 3](https://github.com/EasyCTF/easyctf-2017-problems/blob/master/decomphose/decomp2.7z)
 
-file 4
+[file 4](https://github.com/EasyCTF/easyctf-2017-problems/blob/master/decomphose/decomp2.7z)
 
 ### Solution
 
