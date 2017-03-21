@@ -1,8 +1,6 @@
 # EasyCTF 2017 Writeups
 
-```java
-// TODO: introductory paragraph
-```
+Thanks for participating in EasyCTF! We had a great time running the competition, so we hope that you had a great time participating as well. In this web book, you will find the solutions to problems that appeared during the competition. If you would like to submit a writeup to a problem you solved, see the instructions below about **Contributing**.
 
 ## Contributing
 
@@ -13,6 +11,4 @@ If no one has written a writeup for a certain problem, by all means, write one! 
 For reference, the source files for the problems have been open-sourced and can be viewed [here](https://github.com/EasyCTF/easyctf-2017-problems).
 
 **To submit your writeup link, fork **[**this repository**](https://github.com/EasyCTF/easyctf-2017-writeups)**, add your link, and submit a pull request; an organizer will review it shortly. Please follow the format of existing problems.**
-
-
 
