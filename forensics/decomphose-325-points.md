@@ -70,6 +70,8 @@ And zooming in on the flag, we obtain:
 
 `easyctf{wh4t_a_5weet_fFLag_2b04e1}`
 
+##### Writeup by Harrison Green
+
 ### External Writeups
 
 * \(none\)
