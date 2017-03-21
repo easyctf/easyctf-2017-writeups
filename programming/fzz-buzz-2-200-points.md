@@ -4,9 +4,9 @@ Oh no! Two of my keys are broken! Please help me make the same Fzz Buzz program,
 
 As a side note, use of `eval()` and `exec()` is also frowned upon and will be marked invalid.
 
-***This writeup is a python solution***
+### Solution
 
-### Summary
+***This writeup is a python solution***
 
 The goal of this challenge was to write a fizz buzz program without using the letter `i` or the question mark character `?`. You must read an integer `n` from stdin and print that many lines of fizz buzz. For example, if `n = 17`, output:
 
@@ -30,7 +30,7 @@ FizzBuzz
 17
 ```
 
-### How to get input / print
+#### How to get input / print
 
 In order to get user input, you must call `input()` and likewise, to print you must call `print()`. Therefore, we need some way to alias these functions without using the character `i`.
 
@@ -52,7 +52,7 @@ p = getattr(globals()['__bu\x69lt\x69ns__'],'pr\x69nt')
 
 Now `f` will call `input` and `p` will call `print`.
 
-### How to loop
+#### How to loop
 
 Since the user provides the number of lines to print, we must find some way to loop from `1` to `n`.
 
@@ -71,7 +71,7 @@ def go(k):
 go(1) # Start the chain
 ```
 
-### How to use conditionals?
+#### How to use conditionals?
 
 We ran into a problem in our last task: we can't use `if` since it has an `i`. Therefore, we must find some other way to get conditional behavior.
 
@@ -94,7 +94,7 @@ a = ((k % 15 == 0) and p('F\x69zzBuzz'))
 
 In the previous line, we first check if `k` (the line number) is divisible by `3` and `5` (or just `15`). If it is not, the conditional short-circuits and the right side is not evaluated. If it is, we call `p('F\x69zzBuzz')` which prints `FizzBuzz`. (The `a =` is just so that it is a valid expression).
 
-### Putting it all together
+#### Putting it all together
 
 Therefore, using all of these ideas, we can come up with the following program:
 

@@ -470,4 +470,4 @@ S e r i a l . . .
 
 ### External Writeups
 
-* None
+* \(none\)
