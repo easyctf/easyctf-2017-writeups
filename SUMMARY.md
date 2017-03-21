@@ -19,3 +19,4 @@
   * [Phunky Python II \[115 points\]](/reverse-engineering/phunky-python-ii-115-points.md)
   * [67k \[400 points\]](reverse-engineering/67k-400-points.md)
 * [Web](web.md)
+  * [Cookie Blog \[30 points\]](/web/cookie-blog-30-points.md)
