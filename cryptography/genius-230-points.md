@@ -3,7 +3,7 @@
 Your boss told you that this team has come up with the cryptographic hash of the future, but something about their operation just seems a little fishy.
 
 ### Solution
-
+###### Writeup by Valar Dragon
 Here's the site:
 ![Screenshot 1](https://raw.githubusercontent.com/ValarDragon/CTF-Writeups/master/2017/EasyCTF/Genius/Site-1.png)
 ![Screenshot 2](https://raw.githubusercontent.com/ValarDragon/CTF-Writeups/master/2017/EasyCTF/Genius/Site-2.png)
@@ -18,9 +18,10 @@ This shows us that there are 4 byte words in these hashes!
 Lets take the MD5 hash of `like`, and see how it compares to these strings.
 
 `md5(like) = be1ab1632e4285edc3733b142935c60b`
-That hash is be1ab1632e4285edc3733b142935c60b90383bad42309f7f6850d2b4250a713d0b2d7a97350465a02554d29d92bfefaf
+The hash it was found in is
+`be1ab1632e4285edc3733b142935c60b90383bad42309f7f6850d2b4250a713d0b2d7a97350465a02554d29d92bfefaf`
 
-So, these md5's are looking like they are concatenations of 3 md5's of 4 byte strings!
+So the md5 of `like` is the first 32 chars of the line it was in! Each line of the hash is looking like it is the concatenation of 3 md5's of 4 byte strings!
 
 So I split the given hash into 32 char chunks, and than began brute forcing 4 byte strings with lowercase and UPPERCASE letters, `{_}`, and numbers.
 This gives us:
@@ -53,4 +54,4 @@ Putting that into the website's prompt gives a popup with the flag:
 
 ### External Writeups
 
-* [https://github.com/ValarDragon/CTF-Writeups/blob/master/2017/EasyCTF/Genius/README.md](https://github.com/ValarDragon/CTF-Writeups/blob/master/2017/EasyCTF/Genius/README.md)
+* [https://github.com/HackThisCode/CTF-Writeups/blob/master/2017/EasyCTF/Genius/README.md](https://github.com/HackThisCode/CTF-Writeups/blob/master/2017/EasyCTF/Genius/README.md)

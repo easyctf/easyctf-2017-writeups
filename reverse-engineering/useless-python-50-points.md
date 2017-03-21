@@ -3,6 +3,7 @@
 Boredom took over, so I wrote this python file! I didn't want anyone to see it though because it doesn't actually run, so I used the coolest base-16 encoding to keep it secret. [python](https://github.com/EasyCTF/easyctf-2017-problems/blob/master/useless-python/useless.py)
 
 ### Solution
+###### Writeup by Valar Dragon
 
 The first step is clear from the problem statement, unhexlify the file useless.py
 
@@ -27,4 +28,4 @@ Quick 50 points.
 
 ### External Writeups
 
-* [https://github.com/ValarDragon/CTF-Writeups/tree/master/2017/EasyCTF/Useless%20Python/README.md](https://github.com/ValarDragon/CTF-Writeups/tree/master/2017/EasyCTF/Useless%20Python/README.md)
+* [https://github.com/HackThisCode/CTF-Writeups/tree/master/2017/EasyCTF/Useless%20Python/README.md](https://github.com/HackThisCode/CTF-Writeups/tree/master/2017/EasyCTF/Useless%20Python/README.md)

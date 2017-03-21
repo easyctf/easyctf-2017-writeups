@@ -5,7 +5,7 @@ My friend made some sort of encryption service using the Paillier cryptosystem. 
 Access his encryption service at `paillier.tcp.easyctf.com 8570`
 
 ### Solution
-
+###### Writeup by Valar Dragon
 This was a really easy/straightforward Paillier Cryptosystem Problem! It was a great way to learn about the Paillier Cryptosystem!
 
 We are not actually 'cracking' the Paillier Cryptosystem for this challenge, we are gaining the ability to encrypt our own messages already given the ability to choose the message and random number.
@@ -69,4 +69,4 @@ as our flag!
 
 ### External Writeups
 
-* [https://github.com/ValarDragon/CTF-Writeups/blob/master/2017/EasyCTF/Paillier%20Service/README.md](https://github.com/ValarDragon/CTF-Writeups/blob/master/2017/EasyCTF/Paillier%20Service/README.md)
+* [https://github.com/HackThisCode/CTF-Writeups/tree/master/2017/EasyCTF/Paillier%20Service/README.md](https://github.com/HackThisCode/CTF-Writeups/tree/master/2017/EasyCTF/Paillier%20Service/README.md)
