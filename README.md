@@ -2,6 +2,12 @@
 
 Thanks for participating in EasyCTF! We had a great time running the competition, so we hope that you had a great time participating as well. In this web book, you will find the solutions to problems that appeared during the competition. If you would like to submit a writeup to a problem you solved, see the instructions below about **Contributing**.
 
+## Open Source
+
+We're making a lot of our components open-source, including our platform as well as some of the problems that involved connecting to a server. You can find some of our open-source projects here:
+
+* [Web Challenge Server](https://github.com/EasyCTF/easyctf-2017-webchal)
+
 ## Contributing
 
 We really appreciate all the hard work you guys put into solving these problems, so if you spent your time writing a writeup, we'd like to feature it here! But since these writeups will be provided to and read by everyone, we'd like to keep the writeups as orderly as possible.
