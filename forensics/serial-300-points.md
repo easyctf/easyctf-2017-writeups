@@ -1,6 +1,8 @@
 # Serial - 300 points
 
-## Solution
+I was listening to [this](https://github.com/EasyCTF/easyctf-2017-problems/blob/master/serial/serial.wav) haystack, but I didn't notice anything. What did I miss?
+
+### Solution
 
 This challenge was pretty fun -- and very very frustrating when I had no
 idea what I was doing or where to go next. *(I'm reminded of that time
@@ -12,7 +14,7 @@ From the title 'Serial', it was pretty likely that this would be a
 stream of serial data, so all I had to do was decode that, right? Super
 easy, right?
 
-### Scoping it out
+#### Scoping it out
 
 I opened the audio file in audacity. This is pretty much always worth
 doing for any sort of forensics-y audio file: often it looks interesting
@@ -38,7 +40,7 @@ which could be better if you're in a hurry.)*
 The wav file stored sounds as 16 bit values, which means they will range
 between roughly -32760 and 32760.
 
-### Pulling apart the .WAV file
+#### Pulling apart the .WAV file
 
 I opened the wav file as raw bytes in python, started from the first
 byte after the header ended, and printed them out to see if I could see
@@ -283,7 +285,7 @@ def print_counter(counter, numbers, cur):
         numbers.append(str(1-cur)) # flopped bits
 ```
 
-### Decoding the 0s and 1s
+#### Decoding the 0s and 1s
 
 Now that we have the raw stream of bits, it's time to try decoding it.
 At first glance there wasn't anything obvious; I did some reading on how
@@ -342,7 +344,7 @@ Cool, we can see that every 11 bits, we have the pattern 001. eg:
 `001XXXXXXXX001XXXXXXXX001`. Conveniently, 11 bits - 3 recurring bits = 8
 bits = 1 byte of data = (y)
 
-### Writing the raw bytes to a file
+#### Writing the raw bytes to a file
 
 Time to write the raw bytes out to a file, and see if it looks at all
 meaningful.
@@ -465,3 +467,7 @@ S e r i a l . . .
 ```
 
 ...... yep, I think they're trolling us a bit with that hint.
+
+### External Writeups
+
+* None
