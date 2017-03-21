@@ -7,4 +7,5 @@
 * [Programming](programming.md)
 * [Reverse Engineering](reverse-engineering.md)
 * [Web](web.md)
+  * [Hello, world! \[10 points\]](web/hello-world-100-points.md)
 
