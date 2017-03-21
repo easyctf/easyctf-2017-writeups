@@ -2,7 +2,7 @@
 
 This category focuses on attacks related to using a web browser or internet connections, most of the time dealing with attacking web servers or databases, such as injecting code into input. The web challenges this year are:
 
-* Cookie Blog \[30 points\]
+* [Cookie Blog \[30 points\]](/web/cookie-blog-30-points.md)
 * TinyEval \[100 points\]
 * Edge 1 \[100 points\]
 * SQL Injection 1 \[100 points\]
