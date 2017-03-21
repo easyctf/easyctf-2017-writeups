@@ -17,11 +17,6 @@ This category refers to the recovery of information from evidence, like extracti
 * Finn \[200 points\]
 * Kittycat \[290 points\]
 * [Serial \[300 points\]](/forensics/serial-300-points.md)
-* Decomphose \[325 points\]
+* [Decomphose \[325 points\]](/forensics/decomphose-325-points.md)
 * QR 2 \[330 points\]
 * Bizzaro \[400 points\]
-
-
-
-
-
