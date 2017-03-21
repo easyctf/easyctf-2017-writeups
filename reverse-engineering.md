@@ -8,7 +8,7 @@ This category challenges your deductive ability to use a program's behavior and 
 * Phunky Python II \[115 points\]
 * Lucky Guess \[200 points\]
 * Hex QR \[200 points\]
-* 67k \[400 points\]
+* [67k \[400 points\]](/reverse-engineering/67k-400-points.md)
 * Morphin \[450 points\]
 
 
