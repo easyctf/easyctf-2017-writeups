@@ -7,10 +7,7 @@ This category tests your skills at writing scripts to automate tasks that are to
 * Fizz Buzz 1 \[50 points\]
 * Down a Notch \[100 points\]
 * library \[175 points\]
-* Fzz Buzz 2 \[200 points\]
+* [Fzz Buzz 2 \[200 points\]](/programming/fzz-buzz-2-200-points.md)
 * Things Don't Add Up \[210 points\]
 * Wayward Space Junk \[300 points\]
 * [Match Me \[300 points\]](/programming/match-me-300-points.md)
-
-
-
