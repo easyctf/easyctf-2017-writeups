@@ -139,6 +139,7 @@ So it looks like the binaries will create some obfuscated Javascript code, speci
 ### External Writeups
 
 * [https://github.com/VulnHub/ctf-writeups/blob/master/2017/easyctf/67k.md](https://github.com/VulnHub/ctf-writeups/blob/master/2017/easyctf/67k.md)
+* [https://www.youtube.com/watch?v=7AB6Nx9\_K6A](https://www.youtube.com/watch?v=7AB6Nx9_K6A)
 
 
 
