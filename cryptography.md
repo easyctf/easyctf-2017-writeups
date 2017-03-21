@@ -14,11 +14,10 @@ This category focuses on using advanced mathematical topics to encrypt data to p
 * Security Through Obscurity \[150 points\]
 * Lost Seed \[150 points\]
 * Listen Closely \[200 points\]
-* Genius \[230 points\]
+* [RSA 4 \[200 points\]](/files/rsa4.txt)
+* [Genius \[230 points\]](/cryptography/genius-230-points.md)
 * Premium RSA \[350 points\]
-* Paillier Service \[400 points\]
-
-
+* [Paillier Service \[400 points\]](/cryptography/paillier-service-400-points.md)
 
 
 

@@ -10,7 +10,7 @@ This category tests your skills at writing scripts to automate tasks that are to
 * Fzz Buzz 2 \[200 points\]
 * Things Don't Add Up \[210 points\]
 * Wayward Space Junk \[300 points\]
-* Match Me \[300 points\]
+* [Match Me \[300 points\]](/programming/match-me-300-points.md)
 
 
 
