@@ -2,6 +2,7 @@
 
 * [Introduction](README.md)
 * [Binary Exploitation](chapter1.md)
+  * [Heaps of Knowledge \[420 points\]](chapter1/heaps-of-knowledge-420-points.md)
 * [Cryptography](cryptography.md)
 * [Forensics](forensics.md)
 * [Programming](programming.md)
