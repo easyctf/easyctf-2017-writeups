@@ -2,7 +2,7 @@
 
 This category tests your skills at writing scripts to automate tasks that are too tedious to perform by hand. We graded your programs through an online judge, which executed your code and evaluated its correctness. The programming challenges this year are:
 
-* Hello, world! \[10 points\]
+* [Hello, world! \[10 points\]](/programming/hello-world-10-points.md)
 * Things Add Up \[15 points\]
 * Fizz Buzz 1 \[50 points\]
 * Down a Notch \[100 points\]
