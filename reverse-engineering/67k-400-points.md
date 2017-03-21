@@ -4,13 +4,9 @@
 
 ### Solution
 
-This was a 400 point reverse engineering challenge from [EasyCTF 2017](https://www.easyctf.com/). We're given a zip file containing 67,139 small programs starting from 00000.exe to 10642.exe. The idea is to solve each one in order and to join their output. The end result would lead to the flag. Here's the challenge description:
+This was a 400 point reverse engineering challenge from [EasyCTF 2017](https://www.easyctf.com/). We're given a zip file containing 67,139 small programs starting from 00000.exe to 10642.exe. The idea is to solve each one in order and to join their output. The end result would lead to the flag. There are probably a hundred ways to solve this challenge, but I decided to give it a go using radare2's [r2pipe](https://github.com/radare/radare2-r2pipe).
 
-> Here are 67k binaries, well more accurately 67,139 binaries. Solve every single one, append the results together in order (shouldn't be too difficult as the binaries are numbered) and then from there I'm sure you can figure it out.
-
-There are probably a hundred ways to solve this challenge, but I decided to give it a go using radare2's [r2pipe](https://github.com/radare/radare2-r2pipe).
-
-Disclaimer: This was the first time I'd used r2pipe, so I apologize for the noobness. After much Googling and fiddling, I ended up with a hacky script that solved the challenge. The script can definitely be improved upon, and I'd love to hear suggestions from those who are more experienced with r2pipe or radare2 scripting. 
+Disclaimer: This was the first time I'd used r2pipe, so I apologize for the noobness. After much Googling and fiddling, I ended up with a hacky script that solved the challenge. The script can definitely be improved upon, and I'd love to hear suggestions from those who are more experienced with r2pipe or radare2 scripting.
 
 I loaded 00000.exe into radare2 for some static analysis:
 
@@ -19,9 +15,9 @@ I loaded 00000.exe into radare2 for some static analysis:
 `entry0` is where the program starts. This function basically breaks down to:
 
 * get a number from the user
-* set eax to a value stored at an address (in this case 0x403000). I'll call this value `x`
-* set ecx to a constant value (in this case 0xa1a8a7ed). I'll call this value `y`
-* call a function, I'll call it `do_op()`, that returns the result of an operation (in this case `eax-ecx`)
+* set eax to a value stored at an address \(in this case 0x403000\). I'll call this value `x`
+* set ecx to a constant value \(in this case 0xa1a8a7ed\). I'll call this value `y`
+* call a function, I'll call it `do_op()`, that returns the result of an operation \(in this case `eax-ecx`\)
 
 Here's what `do_op()` looks like:
 
@@ -29,7 +25,7 @@ Here's what `do_op()` looks like:
 
 The return value of this function, I'll call it `z`, is compared against the user's input. If they are identical it follows a branch that does the following:
 
-* set cl to a value stored at an address (in this case 0x403007)
+* set cl to a value stored at an address \(in this case 0x403007\)
 * shift `z` by cl bits and store the result in eax
 * do a bitwise `and` on eax and print out the result
 
@@ -130,7 +126,7 @@ if __name__ == "__main__":
     sys.stdout.write("%c" % (solve,))
 ```
 
-The script is commented so hopefully it makes sense, It basically figures out what the expected input is and what the binary's output will be. 
+The script is commented so hopefully it makes sense, It basically figures out what the expected input is and what the binary's output will be.
 
 To demonstrate the script, I've copied a handful of the binaries to a sample directory and ran it:
 
