@@ -117,6 +117,7 @@ def go(k):
 go(1)
 ```
 
+##### Writeup by Harrison Green
 
 ### External Writeups
 
