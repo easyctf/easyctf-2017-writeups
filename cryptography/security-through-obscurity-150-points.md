@@ -80,6 +80,7 @@ The intended solution involved learning what cryptosystem this is through google
 
 A link for the cryptosystem given post-CTF on this cryptosystem is:
  https://www.di.ens.fr/~stern/data/St63.pdf
- ### External Writeups
+
+### External Writeups
 
  * [https://github.com/HackThisCode/CTF-Writeups/blob/master/2017/EasyCTF/Security%20Through%20Obscurity/README.md](https://github.com/HackThisCode/CTF-Writeups/blob/master/2017/EasyCTF/Security%20Through%20Obscurity/README.md)

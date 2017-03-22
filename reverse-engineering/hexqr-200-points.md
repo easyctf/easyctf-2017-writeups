@@ -8,7 +8,7 @@ The goal was to figure out the encoding schema and decode the flag.
 
 ![](https://github.com/hgarrereyn/EasyCTF-2017-Write-ups/raw/1e81630e6b36e9caaa54b23e63e4d1e4f6f5c39e/hexqr/flag.png)
 
-### Solution:
+### Solution
 
 #### Overview
 
