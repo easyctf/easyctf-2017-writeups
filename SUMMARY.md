@@ -20,3 +20,4 @@
   * [67k \[400 points\]](reverse-engineering/67k-400-points.md)
 * [Web](web.md)
   * [Cookie Blog \[30 points\]](/web/cookie-blog-30-points.md)
+  * [TinyEval \[100 points\]](/web/tiny-eval-100-points.md)
