@@ -3,6 +3,7 @@
 After doing so much RSA, I finally messed up.... pls help. I encrypted my secret [message](../files/rsa4.txt) but the decryption isn't working!!
 
 ### Solution
+###### Writeup by Valar Dragon
 
 \*Unfortunately due to a flag leak this challenge was taken down.
 
@@ -75,4 +76,4 @@ bytearray(b'easyctf{m0dul4r_fuN!}')
 
 ### External Writeups
 
-* [https://github.com/ValarDragon/CTF-Writeups/tree/master/2017/EasyCTF/RSA%204/README.md](https://github.com/ValarDragon/CTF-Writeups/tree/master/2017/EasyCTF/RSA%204/README.md)
+* [https://github.com/HackThisCode/CTF-Writeups/blob/master/2017/EasyCTF/RSA%204/README.md](https://github.com/HackThisCode/CTF-Writeups/blob/master/2017/EasyCTF/RSA%204/README.md)

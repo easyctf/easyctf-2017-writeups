@@ -3,7 +3,7 @@
 We stumbled across another phunky Python file. Can you find the redacted value of jkx that makes [this program](https://github.com/ValarDragon/CTF-Writeups/blob/master/2017/EasyCTF/Phunky%20Python%20-%202/phunky2.py) print `True`?
 
 ### Solution
-
+###### Writeup by Valar Dragon
 
 So were given a super weird python 2 file, _phunky2.py_. To unravel this, lets start from the beggining.
 ``` python

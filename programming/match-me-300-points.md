@@ -14,6 +14,7 @@ MD5 hash of `(male_1,female_1)(male_2,female_2)...(male_n,female_n)`, where the 
 Here are the lists of preferences:[male preferences](https://github.com/EasyCTF/easyctf-2017-problems/blob/master/match-me/male_prefs.txt), [female preferences](https://github.com/EasyCTF/easyctf-2017-problems/blob/master/match-me/female_prefs.txt).
 
 ### Solution
+###### Writeup by Valar Dragon
 
 This was a fun programming problem! I had already seen the video [https://www.youtube.com/watch?v=Qcv1IqHWAzg](https://www.youtube.com/watch?v=Qcv1IqHWAzg) \(Stable Marriage Problem by Dr Emily Riehl and filmed by Brady Haran from Numberphile\) which happened to describe the algorithm to this exact same problem! I encourage watching it.
 
@@ -55,7 +56,4 @@ MD5 of that \( Our flag\):
 
 ### External Writeups
 
-* [https://github.com/ValarDragon/CTF-Writeups/blob/master/2017/EasyCTF/Match%20me/README.md](https://github.com/ValarDragon/CTF-Writeups/blob/master/2017/EasyCTF/Match me/README.md)
-
-
-
+* [https://github.com/HackThisCode/CTF-Writeups/blob/master/2017/EasyCTF/Match%20me/README.md](https://github.com/HackThisCode/CTF-Writeups/blob/master/2017/EasyCTF/Match me/README.md)
