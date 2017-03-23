@@ -9,7 +9,7 @@ This category focuses on attacks related to using a web browser or internet conn
 * Blogbox \[135 points\]
 * SQL Injection 2 \[150 points\]
 * Edge 2 \[200 points\]
-* Web Tunnel \[260 points\]
+* [Web Tunnel \[260 points\]](/web/web-tunnel-260-points.md)
 
 
 
