@@ -55,3 +55,4 @@ Putting that into the website's prompt gives a popup with the flag:
 ### External Writeups
 
 * [https://github.com/HackThisCode/CTF-Writeups/blob/master/2017/EasyCTF/Genius/README.md](https://github.com/HackThisCode/CTF-Writeups/blob/master/2017/EasyCTF/Genius/README.md)
+* [https://github.com/EasyCTF/easyctf-2017-writeups/blob/master/cryptography/genius-alternative-solution-230-points.md](https://github.com/EasyCTF/easyctf-2017-writeups/blob/master/cryptography/genius-alternative-solution-230-points.md)
