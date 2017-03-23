@@ -4,6 +4,7 @@
 * [Binary Exploitation](/binary-exploitation.md)
   * [Heaps of Knowledge \[420 points\]](/binary-exploitation/heaps-of-knowledge-420-points.md)
 * [Cryptography](cryptography.md)
+  * [RSA 1 \[50 points\]](/cryptography/rsa-1-50-points.md)
   * [Hash on Hash \[100 points\]](/cryptography/hash-on-hash-100-points.md)
   * [Security Through Obscurity \[150 points\]](/cryptography/security-through-obscurity-150-points.md)
   * [RSA 4 \[200 points\]](/cryptography/rsa-4-200-points.md)

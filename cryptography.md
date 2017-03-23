@@ -4,7 +4,7 @@ This category focuses on using advanced mathematical topics to encrypt data to p
 
 * Clear and Concise Commentary on Caesar Cipher \[20 points\]
 * Flip My Letters \[20 points\]
-* RSA 1 \[50 points\]
+* [RSA 1 \[50 points\]](/cryptography/rsa-1-50-points.md)
 * Let Me Be Frank \[75 points\]
 * RSA 2 \[80 points\]
 * Decode Me \[100 points\]
