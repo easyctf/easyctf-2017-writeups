@@ -23,7 +23,7 @@ The next part of the hint tells us to look more closely at the difference in the
 
 ![](https://github.com/VoidMercy/EasyCTF-Writeups-2017/blob/master/forensics/Finn/subs.png?raw=true)
 
-After seeing the hex bytes extracted from the QR code, I started to think that the encryption refered to by the hint was XOR encryption. This meant that the message and the key needed to have the same size. Starting at (563, 114), I extracted the differences in the next 26 pixels.
+After seeing the hex bytes extracted from the QR code, I started to think that the encryption refered to by the hint was XOR encryption. This meant that the message and the key needed to have the same size. Starting at (144, 533), I extracted the differences in the next 26 pixels.
 
 ```python
 from PIL import Image
