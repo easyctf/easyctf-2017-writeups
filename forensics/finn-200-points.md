@@ -9,7 +9,7 @@ If you get stuck, We also have [this](https://github.com/EasyCTF/easyctf-2017-pr
 
 We are given a jpg. Looking at the first part of the hint, we know that we have to `binwalk` the file. Running `binwalk -e finn.jpg` gives us what we need.
 
-After we binwalk it, we see that there is a zip file protected by a password. Although the hint says that the password refers to the problem statement, I just used brute force using the `fcrackzip` tool. Running `fcrackzip -v -m zip2 -l 1-8 -u AD3E.zip` and waiting for some gives us the password to the zip file: `2187`.
+After we binwalk it, we see that there is a zip file protected by a password. Although the hint says that the password refers to the problem statement, I just used brute force using the `fcrackzip` tool. Running `fcrackzip -v -m zip2 -l 1-8 -u AD3E.zip` gives us the password to the zip file: `2187`.
 
 After extracting the zip file, we see two "identical" images. The hint says we should find the difference in the images. Imagemagick's `compare` tool should do the trick. Running `compare kylo1.png kylo2.png diff.png` gives us a new file which contains a QR code. 
 
