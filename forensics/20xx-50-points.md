@@ -3,7 +3,7 @@
 My friend sent me [this file](https://github.com/EasyCTF/easyctf-2017-problems/blob/master/20xx/_20xx.dtm?raw=true) and told me to git gud.
 
 ### Solution
-##### Writeup by Alaska47
+##### Writeup by Alaska47 from phsst
 
 Searching the dtm extension up originally lead me towards AutoCAD software. However, once we look at the title, we realize that this relates to the Super Smash Bros. Melee game. Searching up `dtm game file` leads us to this [link](http://tasvideos.org/DTM.html).
 
