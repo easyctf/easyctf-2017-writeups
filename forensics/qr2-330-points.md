@@ -1,8 +1,10 @@
-#QR2 - 330 points
+# QR2 - 330 points
 
-#### phsst - VoidMercy's writeup
+When I am not practicing my [Oboe](https://en.wikipedia.org/wiki/Oboe) for band, I have been working on a QR code generator. For some reason, some of the images are not scannable. Here is one, can you tell me what it says?
 
-We were given a broken QR code.
+### Solution
+
+###### Writeup by VoidMercy from phsst
 
 The problem mentioned that this problem is related to "OBOE" somehow. We search this up and find that OBOE can also stand for off by one error. We surmised that the off by one refers to the mask of the QR code, so we manually changed the mask of the QR code to see if it would decode. Sadly, none of the masks work. (See wikipedia for more information on masks).
 
@@ -10,13 +12,13 @@ Then we had an idea to find out if the mask was messed up or not. Because we kno
 
 Here is "easyctf" encrypted:
 
-![](https://raw.githubusercontent.com/VoidMercy/EasyCTF-Writeups-2017/blob/master/forensics/QR2/first3chars.fw.png)
+![](https://raw.githubusercontent.com/VoidMercy/EasyCTF-Writeups-2017/master/forensics/QR2/first3chars.fw.png)
 
 Which we xored with the original broken QR (scaled down):
 
 Original broken QR:
 
-![](https://raw.githubusercontent.com/VoidMercy/EasyCTF-Writeups-2017/blob/master/forensics/QR2/small.png)
+![](https://raw.githubusercontent.com/VoidMercy/EasyCTF-Writeups-2017/master/forensics/QR2/small.png)
 
 Here is the script I used:
 
@@ -44,19 +46,19 @@ new.save("test.png")
 
 Then here is the result (with a bit of edit to make the real mask more visible):
 
-![](https://raw.githubusercontent.com/VoidMercy/EasyCTF-Writeups-2017/blob/master/forensics/QR2/actualmask.PNG)
+![](https://raw.githubusercontent.com/VoidMercy/EasyCTF-Writeups-2017/master/forensics/QR2/actualmask.PNG)
 
 We can see that this mask is mask #6, except moved up one pixel! So we manually construct the same mask, offset by one pixel as well:
 
-![](https://raw.githubusercontent.com/VoidMercy/EasyCTF-Writeups-2017/blob/master/forensics/QR2/sicemask.png)
+![](https://raw.githubusercontent.com/VoidMercy/EasyCTF-Writeups-2017/master/forensics/QR2/sicemask.png)
 
 Then we xored this mask with the original messed up QR code to undo the off by one mask.
 
-![](https://raw.githubusercontent.com/VoidMercy/EasyCTF-Writeups-2017/blob/master/forensics/QR2/xor1.PNG)
+![](https://raw.githubusercontent.com/VoidMercy/EasyCTF-Writeups-2017/master/forensics/QR2/xor1.PNG)
 
 Afterwards, we apply the correct mask #6:
 
-![](https://raw.githubusercontent.com/VoidMercy/EasyCTF-Writeups-2017/blob/master/forensics/QR2/xor2.PNG)
+![](https://raw.githubusercontent.com/VoidMercy/EasyCTF-Writeups-2017/master/forensics/QR2/xor2.PNG)
 
 Then, the QR is able to be decoded by any QR code reader!
 
