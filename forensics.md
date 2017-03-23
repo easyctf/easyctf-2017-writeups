@@ -12,11 +12,11 @@ This category refers to the recovery of information from evidence, like extracti
 * Gibberish \[100 points\]
 * Ogrewatch \[100 points\]
 * My USB \[150 points\]
-* Flag PEG \[150 points\]
+* [Flag PEG \[150 points\]](/forensics/flag-peg-150-points.md)
 * ZIP Tunnel \[160 points\]
 * Finn \[200 points\]
 * Kittycat \[290 points\]
 * [Serial \[300 points\]](/forensics/serial-300-points.md)
 * [Decomphose \[325 points\]](/forensics/decomphose-325-points.md)
-* QR 2 \[330 points\]
-* Bizzaro \[400 points\]
+* [QR 2 \[330 points\]](/forensics/qr2-330-points.md)
+* [Bizzaro \[400 points\]](/forensics/bizarro-400-points.md)
