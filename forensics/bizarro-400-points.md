@@ -1,5 +1,7 @@
 # Bizarro - 400 Points
 
+#### phsst - VoidMercy's writeup
+
 We were given an image.
 
 We put the image into stegsolve and in the red plain, we can see a qr code. We decoded the QR code and got:
