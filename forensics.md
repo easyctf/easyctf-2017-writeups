@@ -2,7 +2,7 @@
 
 This category refers to the recovery of information from evidence, like extracting information from corrupted files or uncovering hidden details in order to expose a secret. The forensics problems this year include:
 
-* 20xx \[50 points\]
+* [20xx \[50 points\]](/forensics/20xx-50-points.md)
 * [Mane Event \[50 points\]](/forensics/mane-event-50-points.md)
 * scisnerof \[70 points\]
 * [Petty Difference \[75 points\]](/forensics/petty-difference-75-points.md)

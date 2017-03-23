@@ -11,6 +11,7 @@
   * [Premium RSA \[350 points\]](/cryptography/premium-rsa-350-points.md)
   * [Paillier Service \[400 points\]](/cryptography/paillier-service-400-points.md)
 * [Forensics](forensics.md)
+  * [20xx \[50 points\]](/forensics/20xx-50-points.md)
   * [Mane Event \[50 points\]](/forensics/mane-event-50-points.md)
   * [Petty Difference \[75 points\]](/forensics/petty-difference-75-points.md)
   * [Flag PEG \[150 points\]](/forensics/flag-peg-150-points.md)
