@@ -2,6 +2,8 @@
 
 Thanks for participating in EasyCTF! We had a great time running the competition, so we hope that you had a great time participating as well. In this web book, you will find the solutions to problems that appeared during the competition. If you would like to submit a writeup to a problem you solved, see the instructions below about **Contributing**.
 
+Another great source for writeups is the [CTFTime event listing](https://ctftime.org/event/441/tasks/) for EasyCTF 2017. If there is a problem you haven't found a writeup for in this repository, it may appear on CTFTime.
+
 ## Open Source
 
 We're making a lot of our components open-source, including our platform as well as some of the problems that involved connecting to a server. You can find some of our open-source projects here:
