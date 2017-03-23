@@ -1,5 +1,7 @@
 #QR2 - 330 points
 
+#### phsst - VoidMercy's writeup
+
 We were given a broken QR code.
 
 The problem mentioned that this problem is related to "OBOE" somehow. We search this up and find that OBOE can also stand for off by one error. We surmised that the off by one refers to the mask of the QR code, so we manually changed the mask of the QR code to see if it would decode. Sadly, none of the masks work. (See wikipedia for more information on masks).
