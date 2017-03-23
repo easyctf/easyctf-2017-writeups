@@ -1,5 +1,7 @@
 # Flag PEG - 150 Points
 
+#### phsst - VoidMercy's writeup
+
 We were given a .jpg file.
 
 We ran binwalk on this file and obtained a zip containing a file named "KHgrbikqKC0xKV5u". This base64 decodes to: (x+n)*(-1)^n.
