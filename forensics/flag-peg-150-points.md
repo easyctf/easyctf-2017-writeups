@@ -55,7 +55,7 @@ outFile.close()
 
 Here is the output:
 
-![](https://github.com/VoidMercy/EasyCTF-Writeups-2017/blob/master/forensics/Flag%20PEG/out.png)
+![](https://raw.githubusercontent.com/VoidMercy/EasyCTF-Writeups-2017/master/forensics/Flag%20PEG/out.png)
 
 ## Flag
 
