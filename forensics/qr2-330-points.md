@@ -1,8 +1,10 @@
-#QR2 - 330 points
+# QR2 - 330 points
 
-#### phsst - VoidMercy's writeup
+When I am not practicing my [Oboe](https://en.wikipedia.org/wiki/Oboe) for band, I have been working on a QR code generator. For some reason, some of the images are not scannable. [Here](https://raw.githubusercontent.com/EasyCTF/easyctf-2017-problems/master/qr-2/qr2.bmp) is one, can you tell me what it says?
 
-We were given a broken QR code.
+### Solution
+
+###### Writeup by VoidMercy from phsst
 
 The problem mentioned that this problem is related to "OBOE" somehow. We search this up and find that OBOE can also stand for off by one error. We surmised that the off by one refers to the mask of the QR code, so we manually changed the mask of the QR code to see if it would decode. Sadly, none of the masks work. (See wikipedia for more information on masks).
 

@@ -1,6 +1,10 @@
 # Bizarro - 400 Points
 
-#### phsst - VoidMercy's writeup
+Something seems very strange about [this](https://raw.githubusercontent.com/EasyCTF/easyctf-2017-problems/master/bizarro/crpt.png) strange looking image. Check it out?
+
+### Solution
+
+###### Writeup by VoidMercy from phsst
 
 We were given an image.
 
