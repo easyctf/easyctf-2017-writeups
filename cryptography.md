@@ -6,7 +6,7 @@ This category focuses on using advanced mathematical topics to encrypt data to p
 * Flip My Letters \[20 points\]
 * [RSA 1 \[50 points\]](/cryptography/rsa-1-50-points.md)
 * Let Me Be Frank \[75 points\]
-* RSA 2 \[80 points\]
+* [RSA 2 \[80 points\]](/cryptography/rsa-2-80-points.md)
 * Decode Me \[100 points\]
 * [Hash on Hash \[100 points\]](/cryptography/hash-on-hash-100-points.md)
 * RSA 3 \[135 points\]
