@@ -196,3 +196,7 @@ Now it is time for the final steps using ur python terminal (online calculators 
 ```
   
 Just follow the hex und decode steps that I mentioned in the beginning and you get your flag: easyctf{wh3n_y0u_h4ve_p&q_RSA_iz_ez_ce39897a}
+
+### External Writeups
+
+* [https://www.bamsoftware.com/computers/easyctf-2017/#rsa1](https://www.bamsoftware.com/computers/easyctf-2017/#rsa1)

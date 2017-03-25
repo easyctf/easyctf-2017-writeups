@@ -78,3 +78,4 @@ flag: easyctf{it's_2017_anD_we're_still_using_PHP???}
 ### External Writeups
 
 * [defund's writeup](https://defund.io/post/easyctf-2017-writeups/)
+* [https://www.bamsoftware.com/computers/easyctf-2017/#tinyeval](https://www.bamsoftware.com/computers/easyctf-2017/#tinyeval)
