@@ -7,7 +7,7 @@ This category focuses on using advanced mathematical topics to encrypt data to p
 * [RSA 1 \[50 points\]](/cryptography/rsa-1-50-points.md)
 * Let Me Be Frank \[75 points\]
 * RSA 2 \[80 points\]
-* Decode Me \[100 points\](/cryptography/decode-me-100-points.md)
+* [Decode Me \[100 points\]](/cryptography/decode-me-100-points.md)
 * [Hash on Hash \[100 points\]](/cryptography/hash-on-hash-100-points.md)
 * RSA 3 \[135 points\]
 * Diffie-cult \[140 points\]
