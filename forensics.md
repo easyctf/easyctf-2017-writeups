@@ -14,7 +14,7 @@ This category refers to the recovery of information from evidence, like extracti
 * My USB [\[150 points\]](/forensics/my-usb-150-points.md)
 * [Flag PEG \[150 points\]](/forensics/flag-peg-150-points.md)
 * ZIP Tunnel \[160 points\]
-* Finn \[200 points\]
+* [Finn \[200 points\]](/forensics/finn-200-points.md)
 * Kittycat \[290 points\]
 * [Serial \[300 points\]](/forensics/serial-300-points.md)
 * [Decomphose \[325 points\]](/forensics/decomphose-325-points.md)
