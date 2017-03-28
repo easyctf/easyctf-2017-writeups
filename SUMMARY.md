@@ -8,6 +8,7 @@
 * [Cryptography](cryptography.md)
   * [Flip My Letters \[20 points\]](/cryptography/flip-my-letters-20-points.md)
   * [RSA 1 \[50 points\]](/cryptography/rsa-1-50-points.md)
+  * [RSA 2 \[80 points\]](/cryptography/rsa-2-80-points.md)
   * [Hash on Hash \[100 points\]](/cryptography/hash-on-hash-100-points.md)
   * [Security Through Obscurity \[150 points\]](/cryptography/security-through-obscurity-150-points.md)
   * [RSA 4 \[200 points\]](/cryptography/rsa-4-200-points.md)
