@@ -3,7 +3,7 @@
 This category focuses on using advanced mathematical topics to encrypt data to prevent it from being intercepted/tampered with. Cryptography has many practical applications from HTTPS to cryptocurrency. The cryptography challenges in this contest include:
 
 * Clear and Concise Commentary on Caesar Cipher \[20 points\]
-* Flip My Letters \[20 points\]
+* [Flip My Letters \[20 points\]](/cryptography/flip-my-letters-20-points.md)
 * [RSA 1 \[50 points\]](/cryptography/rsa-1-50-points.md)
 * Let Me Be Frank \[75 points\]
 * RSA 2 \[80 points\]
