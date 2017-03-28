@@ -32,3 +32,7 @@ Running the program for a few minutes and searching the output file for 'easyctf
 
 
 ###### Flag: easyctf{y0u_sh0uld_b3_t1r3d_tr4v3ll1ng_all_th1s_w4y}
+
+### External Writeups
+
+* [https://github.com/HackThisCode/CTF-Writeups/blob/master/2017/EasyCTF/Web%20Tunnel/README.md](https://github.com/HackThisCode/CTF-Writeups/blob/master/2017/EasyCTF/Web%20Tunnel/README.md)
