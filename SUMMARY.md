@@ -18,6 +18,7 @@
   * [Mane Event \[50 points\]](/forensics/mane-event-50-points.md)
   * [Petty Difference \[75 points\]](/forensics/petty-difference-75-points.md)
   * [Flag PEG \[150 points\]](/forensics/flag-peg-150-points.md)
+  * [Finn \[200 points\]](/forensics/finn-200-points.md)
   * [Serial \[300 points\]](/forensics/serial-300-points.md)
   * [Decomphose \[325 points\]](/forensics/decomphose-325-points.md)
   * [QR 2 \[330 points\]](/forensics/qr2-330-points.md)
