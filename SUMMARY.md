@@ -2,6 +2,8 @@
 
 * [Introduction](README.md)
 * [Binary Exploitation](/binary-exploitation.md)
+  * [Doubly Dangerous \[110 points\]](/binary-exploitation/doubly-dangerous-110-points.md)
+  * [Simple ROP \[120 points\]](/binary-exploitation/simple-rop-120-points.md)
   * [Heaps of Knowledge \[420 points\]](/binary-exploitation/heaps-of-knowledge-420-points.md)
 * [Cryptography](cryptography.md)
   * [RSA 1 \[50 points\]](/cryptography/rsa-1-50-points.md)
