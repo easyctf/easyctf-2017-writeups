@@ -121,4 +121,4 @@ go(1)
 
 ### External Writeups
 
-* \(none\)
+* [https://github.com/andrewjbennett/ctf-writeups/blob/master/2017/easyctf/fzz-buzz-2-200-points.md](https://github.com/andrewjbennett/ctf-writeups/blob/master/2017/easyctf/fzz-buzz-2-200-points.md)
