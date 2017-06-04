@@ -29,3 +29,4 @@ Quick 50 points.
 ### External Writeups
 
 * [https://github.com/HackThisCode/CTF-Writeups/tree/master/2017/EasyCTF/Useless%20Python/README.md](https://github.com/HackThisCode/CTF-Writeups/tree/master/2017/EasyCTF/Useless%20Python/README.md)
+* [https://www.bamsoftware.com/computers/easyctf-2017/#useless](https://www.bamsoftware.com/computers/easyctf-2017/#useless)
