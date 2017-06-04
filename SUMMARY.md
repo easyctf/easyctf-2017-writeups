@@ -36,4 +36,5 @@
 * [Web](web.md)
   * [Cookie Blog \[30 points\]](/web/cookie-blog-30-points.md)
   * [TinyEval \[100 points\]](/web/tiny-eval-100-points.md)
+  * [Edge 1 \[100 points\]](/web/edge-1-100-points.md)
   * [Web Tunnel \[260 points\]](/web/web-tunnel-260-points.md)
