@@ -29,6 +29,7 @@
   * [Fzz Buzz 2 \[200 points\]](/programming/fzz-buzz-2-200-points.md)
   * [Match Me \[300 points\]](/programming/match-me-300-points.md)
 * [Reverse Engineering](reverse-engineering.md)
+  * [Hexable \[25 points\]](/reverse-engineering/hexable-25-points.md)
   * [Useless Python \[50 points\]](/reverse-engineering/useless-python-50-points.md)
   * [Phunky Python II \[115 points\]](/reverse-engineering/phunky-python-ii-115-points.md)
   * [Hex QR \[200 points\]](/reverse-engineering/hexqr-200-points.md)
